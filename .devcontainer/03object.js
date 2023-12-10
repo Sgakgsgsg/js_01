@@ -54,12 +54,20 @@
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));[key,value]
 //--------object destructure------------
-const course={
-    coursename:"js",
-    price:"999",
-    cousreInstructor:"h"
-}
-//course.courseInstructor
-//->another syntax
-const {courseInstructor:apnehisabsenaam}=course
-console.log(apnehisabsenaam);
+// const course={
+//     coursename:"js",
+//     price:"999",
+//     cousreInstructor:"h"
+// }
+// //course.courseInstructor
+// //->another syntax
+// const {price:apnehisabsenaam}=course;
+// console.log(apnehisabsenaam);
+// //console.log(apnehisabsenaam);
+// // we do in react destructure
+// const navbar=({company})=>{
+
+// }
+
+// navbar(company="login")
+// array method , object method
